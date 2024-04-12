@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url('bacckkk.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-style: oblique;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:rgb(21, 85, 86);
+    padding: 20px;
+    color:black;
+}
+li,h1,ul{
+    display: inline;
+}
+h1{
+    margin: 0;
+}
+li:hover{
+    color:darkgray ;
+}
+li{
+    cursor: pointer;
+}
+
+.photo{
+    text-align: center;
+    margin-top:10%;
+}
+.logo-container{
+    text-align: center; 
+}
+.l1:hover img{
+    opacity: 0.50;
+    transform: scale(1.1); 
+}
+.l2:hover img{
+    opacity: 0.50;
+    transform: scale(1.1); 
+}
+.l3:hover img{
+    opacity: 0.50;
+    transform: scale(1.1); 
+}
+.about{
+    color:rgb(106, 137, 138);
+    margin-left: 50px;
+}
+.proficiency{
+    color:rgb(106, 137, 138);
+    margin-left: 50px;
+}
+.programming{
+   
+    color:rgb(106, 137, 138);
+    margin-left: 50px;
+}
+.problem{
+    color:rgb(106, 137, 138);
+    margin-left: 50px;
+}
+.communication{
+    color:rgb(106, 137, 138);
+    margin-left: 50px;
+}
+.leadership{
+    color:rgb(106, 137, 138);
+    margin-left: 50px;
+}
+.box1{
+    background-color: gray;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 20px;
+    animation: myframes 3s forwards ;
+
+}
+
+@keyframes myframes{
+    0%{
+        left: -80%;width: 100%;
+
+    }
+    50%{
+        background-color: rgb(14, 66, 61);
+        left: 0%;width: 80%;
+    }
+    100%{
+    
+        background-color: rgb(6, 41, 38);
+        left: 0;width:80%;
+    }
+}
+.box2{
+    background-color: gray;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 20px;
+    animation: frames 3s forwards ;
+
+}
+
+@keyframes frames{
+    0%{
+        left: -80%;width: 100%;
+
+    }
+    50%{
+        background-color: rgb(14, 66, 61);
+        left: 0%;width: 80%;
+    }
+    100%{
+    
+        background-color: rgb(6, 41, 38);
+        left: 0;width: 75%;
+    }
+}
+.box3{
+    background-color: gray;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 20px;
+    animation: frame 3s forwards ;
+
+}
+
+@keyframes frame{
+    0%{
+        left: -80%;width: 100%;
+
+    }
+    50%{
+        background-color: rgb(14, 66, 61);
+        left: 0%;width: 80%;
+    }
+    100%{
+    
+        background-color: rgb(6, 41, 38);
+        left: 0;width: 85%;
+    }
+}
+.box4{
+    background-color: gray;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 20px;
+    animation: myframe 3s forwards ;
+
+}
+
+@keyframes myframe{
+    0%{
+        left: -80%;width: 100%;
+
+    }
+    50%{
+        background-color: rgb(14, 66, 61);
+        left: 0%;width: 80%;
+    }
+    100%{
+    
+        background-color: rgb(6, 41, 38);
+        left: 0;width:90%;
+    }
+}
+.contact{
+    margin-left: 50px;
+    color: rgb(79, 163, 160);
+}
+.logo-container2{
+    text-align: left; 
+}
+
+.resumebox{
+    border: 2px solid  aquamarine;
+    padding: 10px;
+    max-width: 140px;
+    margin: 0 auto;
+    background-color: rgb(37, 107, 84);
+}
+.resumebox h2{
+    color:aquamarine;
+    margin-bottom: 10px;
+}
+a.download{
+    color: cadetblue;
+    font-weight: bold;
+}
