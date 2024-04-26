@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.phone{
+    background-color: palevioletred;
+    color: white;
+    border: 2px;
+    width: 85px;
+    padding: 2px;
+    height: 20px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin-bottom: -25px;
+    margin-top: 3%;
+    margin-left: 5px;
+}
+.mail{
+    background-color: palevioletred;
+    color: white;
+    border: 2px;
+    width: 150px;
+    padding: 2px;
+    height: 20px;
+    border-radius: 40%;
+    margin-left: 7%;
+    cursor: pointer;
+    margin-bottom: -25px;
+    margin-top: 5px;
+}
+.phone:hover{
+    color: rgb(119, 36, 119);
+}
+.mail:hover{
+    color:  rgb(119, 36, 119);
+}
+.logocontainer{
+    margin-left: 85%;
+    margin-top: -30%;
+    display: inline;
+    cursor: pointer;
+}
+.logocontainer:hover{
+    color: darkorchid;
+}
+.yt{
+    border: -2%;
+}
+nav{
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+li,ul,h1{
+    display: inline;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: black;
+}
+.photo{
+    margin: 5%;
+    margin-left: 10px;
+}
+.about{
+    color: palevioletred;
+    margin-left: 10px;
+}
+.sidepic{
+    margin-left: 65%;
+    margin-top: -20%;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: 2px;
+    width: 130px;
+    padding: 2px;
+    height: 20px;
+    margin-left: 1%;
+    border-radius: 20px;
+}
+.button {
+    position: relative;
+    top: 0;
+    transition: top 1s ease-in-out;
+  }
+  
+.button:hover {
+    top: -10px;
+}
+.contact{
+    color: palevioletred;
+    font-style: initial;
+    
+}
+.line{
+    background-color: palevioletred;
+    height: 2px;
+}
+.logo:hover{
+    cursor: pointer;
+    color: darkorchid;
+}
